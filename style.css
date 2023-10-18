@@ -1,0 +1,91 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Play&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #050505;
+    /* font-family: 'Play', cursive; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Play', cursive;
+
+
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #3f3939;
+    font-size: 8em;
+}
+h1 span{
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 5px;
+    animation: animate 2s linear infinite;
+}
+
+h1 span:nth-child(1){
+   animation-delay: 0s;
+}
+h1 span:nth-child(2){
+    animation-delay: 0.15s;
+ }
+ h1 span:nth-child(3){
+    animation-delay: 0.3s;
+ }
+ h1 span:nth-child(4){
+    animation-delay: 0.45s;
+ }
+ h1 span:nth-child(5){
+    animation-delay: 0.6s;
+ }
+ h1 span:nth-child(6){
+    animation-delay: 0.75s;
+ }
+ h1 span:nth-child(7){
+    animation-delay: 0.9s;
+ }
+ h1 span:nth-child(8){
+    animation-delay: 1.05s;
+ }
+ h1 span:nth-child(9){
+    animation-delay: 1.2s;
+ }
+ h1 span:nth-child(10){
+    animation-delay: 1.35s;
+ }
+ h1 span:nth-child(11){
+    animation-delay: 1.5s;
+ }
+ h1 span:nth-child(12){
+    animation-delay: 1.65s;
+ }
+ h1 span:nth-child(13){
+    animation-delay: 1.8s;
+ }
+ h1 span:nth-child(14){
+    animation-delay: 1.95s;
+ }
+
+@keyframes animate
+{
+    0%,100%
+    {
+        color: #ffffff;
+        filter: blur(1px);
+        text-shadow: 0 0 10px #0073ff,0 0 20px #00b3ff,0 0 40px #00b3ff,0 0 80px #00b3ff,0 0 120px #00b3ff,0 0 200px #00b3ff ,0 0 300px #00b3ff,0 0 400px #00b3ff;
+    }
+    5%,95%
+    {
+        color: #fdfbfb;
+        filter: blur(0px);
+        text-shadow:none
+    }
+}
